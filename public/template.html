@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Morad A.">
+    <meta name="description" content="A personal blog for Morad A., I discuss science, economics, politics, and philosophy.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
+    <title>Morad A. Personal Website</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="header"> <img src="./media/header.svg" width="100%"> </div>
+        <div id="headerArea">
+
+            <nav id="navbar" style="margin-bottom: 0px;">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="Articles.html">Articles</a></li>
+                    <li><a href="ResourceRepository.html">Resource Repository</a></li>
+                    <li><a href="Portfolio.html">My Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="flex">
+            <main id="main"></main>
+
+            <aside id="rightSidebar">
+                <h2>Recent Updates</h2>
+                <div class="box">
+                    <p>29th Sept. 2023: Hi!! Just added some stuff</p>
+                </div>
+
+                <p>You're visitor no. <span id="hitcount"></span></p>
+                <p>Last Updated: <span id="lastupdate"></span></p>
+
+                <iframe title="ChatBox" src="https://www5.cbox.ws/box/?boxid=944586&boxtag=AY7ALL" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+
+                <h3>Other Profiles</h3>
+                <ul>
+                    <li><a href="https://github.com/Zelakolase" target="_blank">My GitHub Profile</a></li>
+                    <li><a href="https://www.linkedin.com/in/0x250/" target="_blank">My LinkedIn Profile</a></li>
+                    <li><a href="mailto:Zelakolase@tuta.io" target="_blank">Contact via E-Mail</a></li>
+                    <li><a href="https://scholar.google.com/citations?user=pN176VYAAAAJ&hl=en" target="_blank">My Google Scholar</a></li>
+                </ul>
+            </aside>
+        </div>
+
+        <footer id="footer" style="margin-top: 0px;">Made with love, Morad A.</footer>
+    </div>
+    <style>
+         :root {
+            --body-bg-image: url('./media/tiles.gif');
+        }
+        
+        @font-face {
+            font-family: OldStandard;
+            src: url('./fonts/OldStandardTT-Regular.ttf');
+        }
+        
+        @font-face {
+            font-family: OldStandard;
+            src: url('./fonts/OldStandardTT-Bold.ttf');
+            font-weight: bold;
+        }
+        
+        @font-face {
+            font-family: OldStandard;
+            src: url('./fonts/OldStandardTT-Italic.ttf');
+            font-style: italic;
+        }
+        
+        body {
+            font-family: 'OldStandard', sans-serif;
+            margin: 0;
+            background-color: #08031A;
+            background-size: 65px;
+            color: #fceaff;
+            background-image: var(--body-bg-image);
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        #container {
+            max-width: 1250px;
+            margin: 0 auto;
+        }
+        
+        #container a {
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        #navbar {
+            height: min-content;
+            background-color: #13092D;
+            width: 100%;
+        }
+        
+        #navbar ul {
+            display: flex;
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            justify-content: space-evenly;
+        }
+        
+        #navbar li {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-right: 10px;
+        }
+        
+        #navbar li a {
+            color: #fff;
+            font-weight: 800;
+            text-decoration: none;
+            font-size: 15px;
+            padding-left: 5px;
+        }
+        
+        #navbar li a:hover {
+            color: #aaff00;
+            text-decoration: underline;
+        }
+        
+        #flex {
+            display: flex;
+        }
+        
+        aside {
+            background-color: #241445;
+            padding: 10px;
+            font-size: smaller;
+            width: fit-content;
+        }
+        
+        main {
+            background-color: #43256E;
+            flex: 1;
+            padding: 20px;
+            order: 2;
+            max-width: 100%;
+        }
+        
+        */ #leftSidebar {
+            order: 1;
+        }
+        
+        #rightSidebar {
+            order: 3;
+        }
+        
+        footer {
+            background-color: #13092D;
+            width: 100%;
+            height: 40px;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        h1,
+        h2,
+        h3 {
+            color: #fff;
+        }
+        
+        h1 {
+            font-size: 25px;
+        }
+        
+        strong {
+            color: #fff;
+        }
+        
+        .box {
+            background-color: #13092D;
+            border: 1px solid #ED64F5;
+            padding: 5px;
+            width: fit-content;
+        }
+        
+        @media only screen and (max-width: 1150px) {
+            #flex {
+                flex-wrap: wrap;
+            }
+            aside {
+                width: 100%;
+            }
+            main {
+                order: 1;
+            }
+            #leftSidebar {
+                order: 2;
+            }
+            #rightSidebar {
+                order: 3;
+            }
+            #navbar ul {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+
+    <!-- LastUpdate/HitCount JS Mechanism -->
+    <script>
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var site_data = JSON.parse(this.responseText);
+                var num_arr = site_data.info.views.toString().split("");
+                var num_str = "";
+                for (i = 0; i < num_arr.length; i++) {
+                    num_str += num_arr[i];
+                    if ((num_arr.length - 1 - i) % 3 == 0 && (num_arr.length - 1 - i) != 0) {
+                        num_str += ",";
+                    }
+                    var date_str = site_data.info.last_updated;
+                    var date_obj = new Date(site_data.info.last_updated);
+                    document.getElementById("lastupdate").innerHTML = (date_obj.getMonth() + 1) + "-" + date_obj.getDate() + "-" + date_obj.getFullYear();
+                }
+                document.getElementById("hitcount").innerHTML = num_str;
+            }
+        };
+        xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=zelakolase", true);
+        xhttp.send();
+    </script>
+</body>
+
+</html>

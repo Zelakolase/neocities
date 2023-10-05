@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+
+    <div id="myDiv" style="display:none;">
+        <p><strong>Why do you use extensive freemasonry symbolism?</strong></p>
+        <p>
+            One of the core concepts in freemasonry is perceiving God as the greatest architect in the universe, that is why 'G' in the logo represents both God and Geometry, with geometric tools as a frame.<br><br> The main disadvantage of freemasonry
+            is the fact that it is hierarchical. The existence of lodges and certain things to do for the lodge contradicts the fact that every man has free will, and he does not have to join an organization in order to be closer to light 'that is both
+            Knowledge and God'.
+            <br><br>I use freemasonry symbolism in order to emphasize the fact that we do not need to belong to a certain human organization in order to be closer to the truth, and we can use certain symbols in order to communicate our message without
+            having to be bound with the organization that uses that symbol. I do not think that I will join any freemason lodge soon due to these differences.
+        </p>
+
+        <p><strong>What is your IQ? Do you believe in such measure?</strong></p>
+        <p>
+            I am 128 with 3 degrees positive or negative (source: Mensa online IQ test). I do not believe in IQ tests. The number does not represent a natural quantity (like meters per second squared). Furthermore, the marks on each question are put arbitrarily.
+            The 100 IQ normal distribution curve is misleading, since a lot of countries are less than 100. There is no strong evidence that IQ scores are a reliable measurement of analytic intelligence.
+            <br><br> Instead, I think quantifing brain activity and connectivity is the way to go. It represents the biological status of the brain and the amount of electric impluses emitted in the brain in a certain time frame.
+        </p>
+
+        <p><strong>What Operating System do you use?</strong></p>
+        <p>
+            I have previously used Windows 98, XP, 7, 8, 8.1, and 10, and Kali Linux, Debian, Ubuntu, Parrot, Redstar, and Fedora.<br><br> Currently, I use Void Linux with XFCE. It's minimal and very fast. My boot time is around 3 to 5 seconds (with grub
+            optimizations which is in the resource repository). I am looking forward to test Artix, NetBSD, Guix, and other non-systemd linux distros.
+        </p>
+    </div>
+
+    <!-- Template import -->
+    <script>
+        var content = document.getElementById("myDiv").innerHTML;
+        fetch('template.html')
+            .then(response => response.text())
+            .then(html => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const headContent = doc.querySelector('head').innerHTML;
+                const scripts = doc.querySelectorAll('script');
+                scripts.forEach(script => eval(script.innerHTML));
+                document.head.innerHTML = headContent;
+                document.body.innerHTML = doc.documentElement.innerHTML;
+                document.querySelector('#main').innerHTML = content;
+                document.getElementById("myDiv").style.display = "block";
+            })
+            .catch(error => console.error(error));
+    </script>
+</body>
+
+</html>

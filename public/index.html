@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <div id="myDiv" style="display:none;">
+        <center>
+            <h1>Welcome to my website!</h1>
+        </center>
+        <p><strong>A little introduction about myself</strong></p>
+        <p>I am a software developer and a mathematician. I developed this website so that I can take a break from Social Media. Also, I believe that the internet belongs to the people, not corporations. When I design my *own* website, I feel belonged to
+            my creation. I think that an easier access and entry to neocities world and other alternatives should be easy. I'd like to thank <a href="https://sadgrl.online/">SADGRL WEBSITE</a> for providing a nearly-ready-to-use template for fellows to
+            use, I was planning on making a lame simple website.</p>
+        <p><strong>A brief about my political/economic belief system</strong></p>
+        <p>I strive to find truth rather than being biased. As of now, I consider myself a communist, but not USSR/DPRK communist (although they have made many achievements). I believe absolute free speech is what keeps society alive, I do not get convinced
+            that if extremism was propagated enough it will be eventually supported. Society needs to empower itself, and every human being should value his mind and soul, and use them for the common good. The world has enough pain, if you do not want
+            to contribute to the leftover good, do not add to the pain.</p>
+        <p>A good communist makes his community better and stronger, throwing rocks would not solve any problem (aka. BLM/ACAB/etc..). I believe that no matter our beliefs, we should all come together as a humanity to seek answers, not to polarlize our communities
+            in order to satify our innerselves. Nearly 99% of people are fellow, like me and you, strive for a better life for himself and his family and friends, and tries to be bidirectional, to be beneficial and to get assistance when needed, that
+            is the beauty of human life that we should all appreciate and empower.</p>
+        <p><strong>A brief about my religious beliefs</strong></p>
+        <p>I am a monotheist, I believe that God is the great architect of the universe. Although many atheists would argue that my beliefs are wrongs, and assume that I refuse evolution -which is not the case-, I think from a computational point of view.
+            When I make software or any type of computational system, I imagine that humans were also manufactured by a great architect (aka. God). Do <a href="https://en.wikipedia.org/wiki/Object_(computer_science)">Objects</a> have the same awareness
+            as us? Certainly not, but I think that the definition is what traps us in one prespective. Objects have a unique awareness of an environment (eg. <a href="https://en.wikipedia.org/wiki/Java_virtual_machine">JVM</a>) and what they have (eg.
+            attributes and functions). If you let the awareness definition to be dynamic, a lot of questions will be answered.
+            <p>
+                <p>If you want to know more about me, head to 'About' and 'FAQ' in the navigation bar!</p>
+                <p>By the way, this site uses Javascript in order to compensate for the backend. I apologize for any non-JS user.</p>
+                <p>If you want to contact me, do not hesitate to drop me a message via mail: zelakolase[at]tuta.io</p>
+
+    </div>
+
+    <!-- Template import -->
+    <script>
+        var content = document.getElementById("myDiv").innerHTML;
+        fetch('template.html')
+            .then(response => response.text())
+            .then(html => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const headContent = doc.querySelector('head').innerHTML;
+                const scripts = doc.querySelectorAll('script');
+                scripts.forEach(script => eval(script.innerHTML));
+                document.head.innerHTML = headContent;
+                document.body.innerHTML = doc.documentElement.innerHTML;
+                document.querySelector('#main').innerHTML = content;
+                document.getElementById("myDiv").style.display = "block";
+            })
+            .catch(error => console.error(error));
+    </script>
+
+</body>
+
+</html>

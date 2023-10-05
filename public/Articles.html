@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+
+    <div id="myDiv" style="display:none;">
+        <center>
+            <h2>Article List</h2>
+        </center>
+        <div id="list">
+
+        </div>
+    </div>
+
+    <!-- Template import -->
+    <script>
+        var content = document.getElementById("myDiv").innerHTML;
+        fetch('template.html')
+            .then(response => response.text())
+            .then(html => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const headContent = doc.querySelector('head').innerHTML;
+                const scripts = doc.querySelectorAll('script');
+                scripts.forEach(script => eval(script.innerHTML));
+                document.head.innerHTML = headContent;
+                document.body.innerHTML = doc.documentElement.innerHTML;
+                document.querySelector('#main').innerHTML = content;
+
+                // Article list
+                const jsonUrl = "data/articles.json";
+                const containerDev = document.getElementById("list");
+                fetch(jsonUrl)
+                    .then(response => response.json())
+                    .then(data => {
+                        for (let i = data.length - 1; i >= 0; i--) {
+                            const title = data[i].title;
+                            const link = data[i].link;
+                            // Create a new <div> element to hold the text, link, and description
+                            const box = document.createElement("div");
+                            box.classList.add("box");
+                            box.style.width = "100%";
+
+                            const linkElement = document.createElement("p");
+                            const linkAnchor = document.createElement("a");
+                            linkAnchor.href = link;
+                            linkAnchor.textContent = title;
+                            linkElement.appendChild(linkAnchor);
+                            box.appendChild(linkElement);
+                            containerDev.appendChild(box);
+                        }
+                    })
+                    .catch(error => console.error(error));
+            })
+            .catch(error => console.error(error));
+    </script>
+</body>
+
+</html>

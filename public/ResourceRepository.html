@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+
+    <div id="myDiv" style="display:none;">
+        <center>
+            <h3>I intentionally provided limited information about each resource to encourage you to explore and discover them on your own, rather than simply taking what's presented and leaving the page.
+            </h3>
+        </center>
+        <p> This page has <span id="counter">0</span> resources </p>
+        <nav id="navbar" style="margin-bottom: 0px;">
+            <ul>
+                <li><a href="#cs">Computer Science</a></li>
+                <li><a href="#math">Mathematics</a></li>
+                <li><a href="#others">Others</a></li>
+            </ul>
+        </nav>
+
+        <br>
+        <div id="cs">
+            <strong> Computer Science Resources </strong><br>
+        </div>
+        <br>
+        <div id="math">
+            <strong> Mathematics Resources </strong><br>
+        </div>
+        <br>
+        <div id="others">
+            <strong> Other Resources </strong><br>
+        </div>
+    </div>
+
+    <!-- JS Stuff -->
+    <script>
+        var content = document.getElementById("myDiv").innerHTML;
+        fetch('template.html')
+            .then(response => response.text())
+            .then(html => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const headContent = doc.querySelector('head').innerHTML;
+                const scripts = doc.querySelectorAll('script');
+                scripts.forEach(script => eval(script.innerHTML));
+                document.head.innerHTML = headContent;
+                document.body.innerHTML = doc.documentElement.innerHTML;
+                document.querySelector('#main').innerHTML = content;
+
+                // ResRepo JS
+
+                // Define the URL of the JSON file to read
+                const jsonUrl = "data/repo.json";
+
+                // Get references to the csDiv, mathDiv, and othersDiv elements
+                const csDiv = document.getElementById("cs");
+                const mathDiv = document.getElementById("math");
+                const othersDiv = document.getElementById("others");
+
+                // Fetch the JSON data from the URL
+                fetch(jsonUrl)
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById("counter").textContent = data.length;
+                        // Loop through each entry in the JSON data
+                        for (let i = 0; i < data.length; i++) {
+                            // Get the text, link, and description for this entry
+                            const text = data[i].text;
+                            const linkUrl = data[i].link;
+                            const section = data[i].section;
+
+                            // Create a new <div> element to hold the text, link, and description
+                            const box = document.createElement("div");
+                            box.classList.add("box");
+
+                            // Create a new <strong> element for the text
+                            const textElement = document.createElement("strong");
+                            textElement.textContent = text;
+
+                            // Create a new <a> element for the link
+                            const linkElement = document.createElement("p");
+                            const linkAnchor = document.createElement("a");
+                            linkAnchor.href = linkUrl;
+                            linkAnchor.textContent = linkUrl;
+                            linkElement.appendChild(linkAnchor);
+
+                            const categoryElement = document.createElement("a");
+                            categoryElement.textContent = " | Category: " + section;
+
+                            // Add the text element, description element, and link element to the box element
+                            box.appendChild(textElement);
+                            box.appendChild(categoryElement);
+                            box.appendChild(document.createTextNode(" "));
+                            box.appendChild(linkElement);
+                            box.appendChild(document.createTextNode(" "));
+
+                            // Add the box element to the appropriate section div based on the section property
+                            if (section === "cs") {
+                                csDiv.appendChild(box);
+                            } else if (section === "math") {
+                                mathDiv.appendChild(box);
+                            } else if (section === "others") {
+                                othersDiv.appendChild(box);
+                            }
+                        }
+                    })
+                    .catch(error => console.error(error));
+            })
+            .catch(error => console.error(error));
+    </script>
+</body>
+
+</html>

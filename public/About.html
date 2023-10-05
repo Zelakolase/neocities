@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+
+    <div id="myDiv" style="display:none;">
+        <p><strong>Background</strong></p>
+        <p>
+            I have been coding since I was 6 years old. I was fascinated with Software Development since it allowed me to do whatever I want. My moral system was developing with time.<br><br> Fast forward to 2018, my grandma just kicked me out of the
+            house 'She was abusing me'. I have plenty of time to focus on myself and my career. Since then, I had a societal shock. I had a (now ex-)girlfriend in 2019. I was developing exponentially fast, the amount of information being fed to my mind
+            was so high I almost did not comprehend all of it, due to the societal shock.<br><br> As of now, I have <i>nearly</i> fully developed my beliefs. I work and study to benefit humanity as a whole, and to ensure a good future for my kids (if
+            I ever got married).
+        </p>
+        <p><strong>The Objective</strong></p>
+        <p>
+            The objective of this website is to share my own journey, and to propagate critical thinking skills. It is a one step closer to a society with no inflammation. Also, I would like to dump all my technical knowledge here, I have known a lot of stuff I want
+            to share here. This website acts like a blog, an archive, and a portfolio for any future employer who wants to know Morad as a <i>person</i>, not as an employee.
+        </p>
+        <p><strong>Current Profession and Interests</strong></p>
+        <p>
+            I profess in Computer Science, Marcoeconomics, and Pure Mathematics (especially Number Theory). I like to play chess in my (almost nonexistant) free time. I read a lot about the history of sciences and how to take lessons from history in order to make
+            more accurate decisions in our lifetime. I am really interested in Game theory and strategic planning, since it allows me to make rational decisions based on a scientific basis.
+        </p>
+    </div>
+
+    <!-- Template import -->
+    <script>
+        var content = document.getElementById("myDiv").innerHTML;
+        fetch('template.html')
+            .then(response => response.text())
+            .then(html => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const headContent = doc.querySelector('head').innerHTML;
+                const scripts = doc.querySelectorAll('script');
+                scripts.forEach(script => eval(script.innerHTML));
+                document.head.innerHTML = headContent;
+                document.body.innerHTML = doc.documentElement.innerHTML;
+                document.querySelector('#main').innerHTML = content;
+                document.getElementById("myDiv").style.display = "block";
+            })
+            .catch(error => console.error(error));
+    </script>
+</body>
+
+</html>

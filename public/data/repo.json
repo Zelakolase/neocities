@@ -1,0 +1,676 @@
+[{
+        "text": "Roadmaps for Computer Science and related topics",
+        "link": "https://roadmap.sh",
+        "section": "cs"
+    },
+    {
+        "text": "Data structures in C++",
+        "link": "https://www.youtube.com/playlist?list=PLoK2Lr1miEm-5zCzKE8siQezj9rvQlnca",
+        "section": "cs"
+    },
+    {
+        "text": "The missing semester: Github, Bash, etc..",
+        "link": "https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J",
+        "section": "cs"
+    },
+    {
+        "text": "Test-driven development and JUnit",
+        "link": "https://www.youtube.com/playlist?list=PLZPHP6RGS50NtpHLee-eInDbFqy3P303g",
+        "section": "cs"
+    },
+    {
+        "text": "System Design in 1 hour",
+        "link": "https://www.youtube.com/watch?v=BiTN9pG4xbM",
+        "section": "cs"
+    },
+    {
+        "text": "Intuition of Calculus",
+        "link": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr",
+        "section": "math"
+    },
+    {
+        "text": "Essentials of Neural Networks",
+        "link": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: CodeAhead",
+        "link": "https://www.youtube.com/@CodeAhead",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: StatQuest",
+        "link": "https://www.youtube.com/@statquest",
+        "section": "math"
+    },
+    {
+        "text": "Youtube Channel: DigiDigger",
+        "link": "https://www.youtube.com/@DigiDigger",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: vcubingx",
+        "link": "https://www.youtube.com/@vcubingx",
+        "section": "math"
+    },
+    {
+        "text": "Youtube Channel: The art of Software Development",
+        "link": "https://www.youtube.com/@artofsoftwaredevelopment",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: AventusBase",
+        "link": "https://www.youtube.com/@AventusBase",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Polylog",
+        "link": "https://www.youtube.com/@polylog7346",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: jdh",
+        "link": "https://www.youtube.com/@jdh",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: AstroSam",
+        "link": "https://www.youtube.com/@AstroSamDev",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: 5 Minutes or Less",
+        "link": "https://www.youtube.com/@5-minutesorless",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Creel",
+        "link": "https://www.youtube.com/@WhatsACreel",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: code_report",
+        "link": "https://www.youtube.com/@code_report",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Hussien Nasser",
+        "link": "https://www.youtube.com/@hnasr",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Jacob Sorber",
+        "link": "https://www.youtube.com/@JacobSorber",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Computer Science Theory Explained",
+        "link": "https://www.youtube.com/@compscilessons",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Computer Science",
+        "link": "https://www.youtube.com/@ComputerScienceLessons",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Ryo",
+        "link": "https://www.youtube.com/@SWEwithRyo",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Sebastian Lague",
+        "link": "https://www.youtube.com/@SebastianLague",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: CodeAesthetic",
+        "link": "https://www.youtube.com/@CodeAesthetic",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Low Level Learning",
+        "link": "https://www.youtube.com/@LowLevelLearning",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Devoxx",
+        "link": "https://www.youtube.com/@DevoxxForever",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Neso Academy",
+        "link": "https://www.youtube.com/@nesoacademy",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: No Boilerplate",
+        "link": "https://www.youtube.com/@NoBoilerplate",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Morphocular",
+        "link": "https://www.youtube.com/@morphocular",
+        "section": "math"
+    },
+    {
+        "text": "Youtube Channel: IndividualKex",
+        "link": "https://www.youtube.com/@IndividualKex",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel (kinda): Introduction to Cryptography by Christof Paar",
+        "link": "https://www.youtube.com/@introductiontocryptography4223",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Two Minute Papers",
+        "link": "https://www.youtube.com/@TwoMinutePapers",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Geekific",
+        "link": "https://www.youtube.com/@geekific",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Frame of Essence",
+        "link": "https://www.youtube.com/@frameofessence",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Ben Eater (Hardware, kinda)",
+        "link": "https://www.youtube.com/@BenEater",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Coding with John (Java)",
+        "link": "https://www.youtube.com/@CodingWithJohn",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: ComputerPhile",
+        "link": "https://www.youtube.com/@Computerphile",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: The Royal Institution",
+        "link": "https://www.youtube.com/TheRoyalInstitution",
+        "section": "others"
+    },
+    {
+        "text": "Youtube Channel: NumberPhile",
+        "link": "https://www.youtube.com/@numberphile",
+        "section": "math"
+    },
+    {
+        "text": "Youtube Channel: FCIH OpenCourseWare",
+        "link": "https://www.youtube.com/@FCIHOCW",
+        "section": "others"
+    },
+    {
+        "text": "Youtube Channel: Mathologer",
+        "link": "https://www.youtube.com/@Mathologer",
+        "section": "math"
+    },
+    {
+        "text": "Youtube Channel: Code Bullet",
+        "link": "https://www.youtube.com/@CodeBullet",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: The Coding Train",
+        "link": "https://www.youtube.com/@TheCodingTrain",
+        "section": "cs"
+    },
+    {
+        "text": "Free books for Economics, Math, etc.. with exercise questions",
+        "link": "https://openstax.org/",
+        "section": "others"
+    },
+    {
+        "text": "Youtube Channel: (Mostly) Mathematics Visualizations - 3Blue1Brown",
+        "link": "https://www.youtube.com/@3blue1brown",
+        "section": "math"
+    },
+    {
+        "text": "Youtube Channel: Crash Course - Fun courses about nearly everthing",
+        "link": "https://www.youtube.com/@crashcourse",
+        "section": "others"
+    },
+    {
+        "text": "Introduction to Das Kapital by Karl Marx",
+        "link": "https://www.youtube.com/playlist?list=PLUVllNXk1GCpkzSmJHCSXqJE9JGIfS1dU",
+        "section": "others"
+    },
+    {
+        "text": "Youtube Channel: Anahr, Math and Physics",
+        "link": "https://www.youtube.com/@anaHr",
+        "section": "math"
+    },
+    {
+        "text": "Essence of Group Theory",
+        "link": "https://www.youtube.com/playlist?list=PLDcSwjT2BF_VuNbn8HiHZKKy59SgnIAeO",
+        "section": "math"
+    },
+    {
+        "text": "Youtube Channel: DistroTube - Linux-related topics",
+        "link": "https://www.youtube.com/@DistroTube",
+        "section": "cs"
+    },
+    {
+        "text": "Github Repository: Build you own X",
+        "link": "https://github.com/codecrafters-io/build-your-own-x",
+        "section": "cs"
+    },
+    {
+        "text": "Github Repository: Some Assembly Required - A beginner guide to Assembly language",
+        "link": "https://github.com/hackclub/some-assembly-required/blob/main/guide/table-of-contents.md",
+        "section": "cs"
+    },
+    {
+        "text": "Github Repository: Awesome Quantum Computing - A curated list of awesome quantum computing resources",
+        "link": "https://github.com/desireevl/awesome-quantum-computing",
+        "section": "cs"
+    },
+    {
+        "text": "Github Gist: Getting Bluetooth Headphones working on Void Linux with ALSA",
+        "link": "https://gist.github.com/ylixir/b21b236e999b4284a0bf4c0a206f3bcd",
+        "section": "cs"
+    },
+    {
+        "text": "Github Repository: Awesome Theoretical Computer Science - A curated list of awesome theoretical computer science resources",
+        "link": "https://github.com/mostafatouny/awesome-theoretical-computer-science",
+        "section": "cs"
+    },
+    {
+        "text": "Github Repository: Awesome Cryptograhpy - A curated list of cryptography resources",
+        "link": "https://github.com/sobolevn/awesome-cryptography",
+        "section": "cs"
+    },
+    {
+        "text": "Github Repository: Distributed Systems Notes",
+        "link": "https://github.com/Qwe1rty/distributed_systems_notes",
+        "section": "cs"
+    },
+    {
+        "text": "Github Repository: Awesome - List of all resources",
+        "link": "https://github.com/sindresorhus/awesome",
+        "section": "cs"
+    },
+    {
+        "text": "Github Repository: Offensive Security Resources",
+        "link": "https://github.com/Zeyad-Azima/Offensive-Resources",
+        "section": "cs"
+    },
+    {
+        "text": "Github Repository: Java Design Patterns",
+        "link": "https://github.com/iluwatar/java-design-patterns",
+        "section": "cs"
+    },
+    {
+        "text": "Github Repository: All Algorithms - Java",
+        "link": "https://github.com/TheAlgorithms/Java",
+        "section": "cs"
+    },
+    {
+        "text": "Github Gist: Optimizations for Void Linux",
+        "link": "https://gist.github.com/themagicalmammal/e443d3c5440d566f8206e5b957ab1493",
+        "section": "cs"
+    },
+    {
+        "text": "Github Gist: Optimizations for Artix Linux",
+        "link": "https://gist.github.com/themagicalmammal/37276c97897d40598e975f5e563252a6",
+        "section": "cs"
+    },
+    {
+        "text": "Myths programmers believe about CPU Caches",
+        "link": "https://software.rajivprab.com/2018/04/29/myths-programmers-believe-about-cpu-caches/",
+        "section": "cs"
+    },
+    {
+        "text": "Code Quality ISO Standard",
+        "link": "https://edisciplinas.usp.br/pluginfile.php/294901/mod_resource/content/1/ISO%2025010%20-%20Quality%20Model.pdf",
+        "section": "cs"
+    },
+    {
+        "text": "Harvard Resume Guide",
+        "link": "https://hwpi.harvard.edu/files/ocs/files/hes-resume-cover-letter-guide.pdf",
+        "section": "others"
+    },
+    {
+        "text": "Today I Learned - Simon Willison",
+        "link": "https://til.simonwillison.net/",
+        "section": "cs"
+    },
+    {
+        "text": "How to be a hacker",
+        "link": "https://www.catb.org/~esr/faqs/hacker-howto.html",
+        "section": "cs"
+    },
+    {
+        "text": "Cracking a compression Algorithm",
+        "link": "https://haroohie.club/blog/2022-10-19-chokuretsu-compression",
+        "section": "cs"
+    },
+    {
+        "text": "Server Programming challenges",
+        "link": "https://protohackers.com/",
+        "section": "cs"
+    },
+    {
+        "text": "Virgilio - Your mentor for Data Science",
+        "link": "https://virgili0.github.io/Virgilio/",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Reducible",
+        "link": "https://www.youtube.com/@Reducible",
+        "section": "cs"
+    },
+    {
+        "text": "Git Command Explorer",
+        "link": "https://gitexplorer.com/",
+        "section": "cs"
+    },
+    {
+        "text": "Build a computer",
+        "link": "https://www.coursera.org/learn/build-a-computer",
+        "section": "cs"
+    },
+    {
+        "text": "Making a compiler from scratch",
+        "link": "https://www.youtube.com/playlist?list=PLysa8wRFCssxGKj_RxBWr3rwmjEYlJIpa",
+        "section": "cs"
+    },
+    {
+        "text": "The Intel Microprocessor",
+        "link": "https://userpages.umbc.edu/~squire/intel_book.pdf",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: AngeTheGreat",
+        "link": "https://www.youtube.com/@angethegreat",
+        "section": "cs"
+    },
+    {
+        "text": "CS537 - Introduction to Operating Systems",
+        "link": "https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/",
+        "section": "cs"
+    },
+    {
+        "text": "How NASA writes space-proof code",
+        "link": "https://www.youtube.com/watch?v=GWYhtksrmhE",
+        "section": "cs"
+    },
+    {
+        "text": "Minimal Windows 10 Image",
+        "link": "https://archive.org/details/tiny-10-NTDEV",
+        "section": "cs"
+    },
+    {
+        "text": "Another Minimal Windows 10 Image",
+        "link": "https://atlasos.net",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: ElectroMaker",
+        "link": "https://www.youtube.com/@Electromakerio",
+        "section": "others"
+    },
+    {
+        "text": "Youtube Channel: Sarah Jamie Lewis",
+        "link": "https://www.youtube.com/@sarahjamielewis",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Channel: Penguin Maths",
+        "link": "https://www.youtube.com/@PenguinMaths",
+        "section": "math"
+    },
+    {
+        "text": "Youtube Channel: strager",
+        "link": "https://www.youtube.com/@strager_",
+        "section": "cs"
+    },
+    {
+        "text": "Github Repository: What happens when?",
+        "link": "https://github.com/alex/what-happens-when",
+        "section": "cs"
+    },
+    {
+        "text": "OSDev - Creation of Operating Systems",
+        "link": "https://wiki.osdev.org/Expanded_Main_Page",
+        "section": "cs"
+    },
+    {
+        "text": "An impossible game at the heart of math - Introduction to Game Theory",
+        "link": "https://youtube.com/watch?v=Kj5RCs1FHcc",
+        "section": "math"
+    },
+    {
+        "text": "Alternative Limit Definition and proof",
+        "link": "https://www.youtube.com/watch?v=103Qbhu0QlA&ab_channel=KindiakMath",
+        "section": "math"
+    },
+    {
+        "text": "The perfect hash table",
+        "link": "https://youtu.be/DMQ_HcNSOAI",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube CHannel: Mathematical Visual Proofs",
+        "link": "https://www.youtube.com/@MathVisualProofs",
+        "section": "math"
+    },
+    {
+        "text": "Partial Derivatives and the gradient of a function",
+        "link": "https://youtu.be/AXH9Xm6Rbfc",
+        "section": "math"
+    },
+    {
+        "text": "The math of how atomic nuclei",
+        "link": "https://youtu.be/FL3ImtGcHqQ",
+        "section": "math"
+    },
+    {
+        "text": "Github Repository: Free Programming Books",
+        "link": "https://github.com/EbookFoundation/free-programming-books",
+        "section": "cs"
+    },
+    {
+        "text": "The math behind 3D Games",
+        "link": "https://youtu.be/U0_ONQQ5ZNM",
+        "section": "math"
+    },
+    {
+        "text": "Chaos Theory: The language of instability",
+        "link": "https://youtu.be/uzJXeluCKMs",
+        "section": "math"
+    },
+    {
+        "text": "Github Repository: Curated list of resources on testing distributed systems",
+        "link": "https://github.com/asatarin/testing-distributed-systems",
+        "section": "cs"
+    },
+    {
+        "text": "Watching neural networks learn",
+        "link": "https://www.youtube.com/watch?v=TkwXa7Cvfr8",
+        "section": "cs"
+    },
+    {
+        "text": "Another ridiculous approximation?",
+        "link": "https://youtu.be/g9UYNrTlDWI",
+        "section": "math"
+    },
+    {
+        "text": "What ARE elecontric orbitals?",
+        "link": "https://youtu.be/23bNW4G9DZk",
+        "section": "others"
+    },
+    {
+        "text": "Intuitive Introduction to Category Theory",
+        "link": "https://youtu.be/ZG6t0-JMrw0",
+        "section": "math"
+    },
+    {
+        "text": "Youtube Channel: SithDev",
+        "link": "https://www.youtube.com/@sithdev8206",
+        "section": "cs"
+    },
+    {
+        "text": "Ologs: A categorical framework for knowledge representation",
+        "link": "https://arxiv.org/abs/1102.1889",
+        "section": "math"
+    },
+    {
+        "text": "That weird light at the bottom of a mug",
+        "link": "https://www.youtube.com/watch?v=fJWnA4j0_ho",
+        "section": "math"
+    },
+    {
+        "text": "Hiding images in plain sight: The physics of magic windows",
+        "link": "https://mattferraro.dev/posts/caustics-engineering",
+        "section": "math"
+    },
+    {
+        "text": "What is the most complicated lock pattern?",
+        "link": "https://www.youtube.com/watch?v=PKjbBQ0PBCQ",
+        "section": "math"
+    },
+    {
+        "text": "Youtube Playlist of interesting 830 math videos",
+        "link": "https://www.youtube.com/playlist?list=PLnQX-jgAF5pTkwtUuVpqS5tuWmJ-6ZM-Z",
+        "section": "math"
+    },
+    {
+        "text": "YOutube Channel: Feral Mathematician",
+        "link": "https://www.youtube.com/@feralmath",
+        "section": "math"
+    },
+    {
+        "text": "Youtube Channel: AprilFrost",
+        "link": "https://www.youtube.com/@Cthulhu323",
+        "section": "math"
+    },
+    {
+        "text": "Interactive Video: Introduction to waves",
+        "link": "https://airladon.github.io/ivid-wave/",
+        "section": "math"
+    },
+    {
+        "text": "A journey in the world of the mathematics used in computer science",
+        "link": "https://blog.hugos29.dev/",
+        "section": "cs"
+    },
+    {
+        "text": "How ray tracing works and how to do it 600x faster?",
+        "link": "https://www.youtube.com/watch?v=gsZiJeaMO48",
+        "section": "math"
+    },
+    {
+        "text": "Percolation: a Mathematical phase transition",
+        "link": "https://www.youtube.com/watch?v=a-767WnbaCQ",
+        "section": "math"
+    },
+    {
+        "text": "How to take the factorial of any number",
+        "link": "https://www.youtube.com/watch?v=v_HeaeUUOnc",
+        "section": "math"
+    },
+    {
+        "text": "How are memories stored in neural networks?",
+        "link": "https://www.youtube.com/watch?v=piF6D6CQxUw",
+        "section": "cs"
+    },
+    {
+        "text": "Differentiable programming from scratch",
+        "link": "https://thenumb.at/Autodiff/",
+        "section": "math"
+    },
+    {
+        "text": "An inverse turing test",
+        "link": "https://calmcode.io/blog/inverse-turing-test.html",
+        "section": "cs"
+    },
+    {
+        "text": "Applied Category Theory Course",
+        "link": "https://math.ucr.edu/home/baez/act_course",
+        "section": "math"
+    },
+    {
+        "text": "Why Periodic systems are so unpredictable?",
+        "link": "https://www.youtube.com/watch?v=NCuiwCM-AQ8",
+        "section": "math"
+    },
+    {
+        "text": "Taylor Series",
+        "link": "https://www.youtube.com/watch?v=3CH_Tou1WMM",
+        "section": "math"
+    },
+    {
+        "text": "Category Theory: Introduction to abstract nonsense",
+        "link": "https://www.youtube.com/watch?v=igf04k13jZk",
+        "section": "math"
+    },
+    {
+        "text": "A new definition of the derivative",
+        "link": "https://www.youtube.com/watch?v=XfWgfZ5V2qI",
+        "section": "math"
+    },
+    {
+        "text": "How binary works, and the power of abstraction",
+        "link": "https://www.youtube.com/watch?v=PMpNhbMjDj0",
+        "section": "math"
+    },
+    {
+        "text": "Youtube Playlist: Software Quality",
+        "link": "https://www.youtube.com/playlist?list=PLEMXAbCVnmY4JbNByvpgEzWsLRKVaF_pk",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Playlist: Compression",
+        "link": "https://www.youtube.com/playlist?list=PLEMXAbCVnmY7kQ2zw32ofBZjmG8WoxsQ4",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Playlist: Raytracer",
+        "link": "https://www.youtube.com/playlist?list=PLEMXAbCVnmY6eVE-F9KZbLZbJqjS_uby3",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Playlist: Hardware Rendering",
+        "link": "https://www.youtube.com/playlist?list=PLEMXAbCVnmY7G-FfvGOCNxnTxDTiFqoeZ",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Playlist: Debug Infrastructure",
+        "link": "https://www.youtube.com/playlist?list=PLEMXAbCVnmY7hhR5WqJ_wxyy1MQpqqnr7",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Playlist: Sorting",
+        "link": "https://www.youtube.com/playlist?list=PLEMXAbCVnmY6sPVVL1BgdgAGqC3QSgWD1",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Playlist: Memory",
+        "link": "https://www.youtube.com/playlist?list=PLEMXAbCVnmY6Azbmzj3BiC3QRYHE9QoG7",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Playlist: PNG Loading",
+        "link": "https://www.youtube.com/playlist?list=PLEMXAbCVnmY5y4dSkKf297tJqwMxJOk7e",
+        "section": "cs"
+    },
+    {
+        "text": "Youtube Playlist: Statistics",
+        "link": "https://www.youtube.com/playlist?list=PL5102DFDC6790F3D0",
+        "section": "math"
+    },
+    {
+        "text": "Youtube Channel: Professor Leonard",
+        "link": "https://www.youtube.com/@ProfessorLeonard",
+        "section": "math"
+    }
+]
