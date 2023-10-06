@@ -7,7 +7,7 @@ on:
       - master
 
 concurrency: # prevent concurrent deploys doing strange things
-  group: deploy-to-neocities
+  group: neocities
   cancel-in-progress: true
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
         npm run build
     # When the dist_dir is ready, deploy it to neocities
     - name: Deploy to neocities
-      uses: bcomnes/deploy-to-neocities@v1
+      uses: zelakolase/neocities@v1
       with:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: true
